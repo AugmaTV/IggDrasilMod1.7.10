@@ -1,0 +1,16 @@
+[
+{
+  "modid": "IDM",
+  "name": "IggDrasilMod",
+  "description": "Réunis la plupart des systèmes du serveur IggDrasil",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Augma"],
+  "credits": "Me lol",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
