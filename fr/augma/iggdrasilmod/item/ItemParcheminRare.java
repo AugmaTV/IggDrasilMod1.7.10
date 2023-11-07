@@ -26,7 +26,7 @@
 /*    */ }
 
 
-/* Location:              C:\Users\Augma\Downloads\IDM-1.0.jar!\fr\augma\iggdrasilmod\item\ItemParcheminRare.class
+/* Location:              C:\Users\Augma\Downloads\IDM-1.0 (1).jar!\fr\augma\iggdrasilmod\item\ItemParcheminRare.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       1.1.3
  */

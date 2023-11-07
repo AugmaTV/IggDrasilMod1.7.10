@@ -68,49 +68,48 @@
 /*  68 */       this.field_146292_n.add(this.Button = (GuiButton)new GuiButtonFriend(4, (int)(this.field_146294_l / 1.97D), (int)(this.field_146295_m / 1.95D), 60, 30));
 /*  69 */       this.field_146292_n.add(this.Button = (GuiButton)new GuiButtonCrossComunity(5, (int)(this.field_146294_l / 1.8D), (int)(this.field_146295_m / 2.42D), 25, 25));
 /*     */     } 
-/*     */     
-/*  72 */     super.func_73866_w_();
+/*  71 */     super.func_73866_w_();
 /*     */   }
 /*     */ 
 /*     */   
 /*     */   protected void func_146284_a(GuiButton button) {
-/*  77 */     switch (button.field_146127_k) {
-/*     */       case 0:
-/*  79 */         this.field_146297_k.func_147108_a(new GuiStats());
-/*     */         break;
+/*  76 */     switch (button.field_146127_k) {
+/*     */ 
+/*     */ 
+/*     */       
 /*     */       case 1:
-/*  82 */         IDMod.NETWORK.sendToServer((IMessage)new PacketRequestSkills());
+/*  81 */         IDMod.NETWORK.sendToServer((IMessage)new PacketRequestSkills());
 /*     */         break;
 /*     */       case 2:
-/*  85 */         this.field_146297_k.func_147108_a(null);
-/*  86 */         (Minecraft.func_71410_x()).field_71439_g.func_71165_d("/mount");
+/*  84 */         this.field_146297_k.func_147108_a(null);
+/*  85 */         (Minecraft.func_71410_x()).field_71439_g.func_71165_d("/mount");
 /*     */         break;
 /*     */       case 3:
-/*  89 */         this.field_146297_k.func_147108_a(null);
+/*  88 */         this.field_146297_k.func_147108_a(null);
 /*     */         break;
 /*     */       case 4:
-/*  92 */         this.field_146297_k.func_147108_a(new GuiFriend());
+/*  91 */         this.field_146297_k.func_147108_a(null);
 /*     */         break;
 /*     */       case 5:
-/*  95 */         this.field_146297_k.func_147108_a(null);
+/*  94 */         this.field_146297_k.func_147108_a(null);
 /*     */         break;
 /*     */     } 
-/*  98 */     super.func_146284_a(button);
+/*  97 */     super.func_146284_a(button);
 /*     */   }
 /*     */ 
 /*     */   
 /*     */   protected void func_73869_a(char c, int key) {
-/* 103 */     switch (key) {
+/* 102 */     switch (key) {
 /*     */       case 18:
-/* 105 */         this.field_146297_k.func_147108_a(null);
+/* 104 */         this.field_146297_k.func_147108_a(null);
 /*     */         break;
 /*     */     } 
-/* 108 */     super.func_73869_a(c, key);
+/* 107 */     super.func_73869_a(c, key);
 /*     */   }
 /*     */ }
 
 
-/* Location:              C:\Users\Augma\Downloads\IDM-1.0.jar!\fr\augma\iggdrasilmod\gui\screen\GuiCommunity.class
+/* Location:              C:\Users\Augma\Downloads\IDM-1.0 (1).jar!\fr\augma\iggdrasilmod\gui\screen\GuiCommunity.class
  * Java compiler version: 6 (50.0)
  * JD-Core Version:       1.1.3
  */
